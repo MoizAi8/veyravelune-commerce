@@ -55,3 +55,5 @@ The built-in OpenAI ImageGen tool produced three additional editorial plates.
 The vestibule, empty terracotta sleeping chamber and Convive dining photograph are original generated artwork for this reconstruction. The foyer and salon are photographic plates. Between them the sofa, vessel, bed, chandelier, chair and table are lit and drawn in real time on supported desktops.
 
 The bed, chair and table use locally stored Poly Haven glTF assets with albedo, normal and packed material textures. Their catalog photography is rendered from the same meshes with the local HDR. Asset names, source URLs, artists and byte sizes are in the register. Reproduce the downloads with `python scripts/import-realm-models.py` and the product renders with `node scripts/render-realm-objects.mjs`. The source files are already included for offline use. The CC0 terms permit redistribution without attribution. [Asset register](ASSET_REGISTER.csv) · [Provider license](https://polyhaven.com/license)
+
+The browser-served font distributions include their SIL Open Font License notices. [Cormorant Garamond](../public/licenses/cormorant-garamond.txt) · [Manrope](../public/licenses/manrope.txt)
