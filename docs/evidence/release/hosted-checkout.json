@@ -1,0 +1,14 @@
+{
+  "environment": "Vercel-authenticated candidate; public deployment stayed in browse mode",
+  "anonymousCandidateStatus": 302,
+  "anonymousRedirect": "Vercel SSO",
+  "publicOrderApiStatus": 503,
+  "quoteUsedDatabasePrice": true,
+  "orderCreated": true,
+  "idempotentRetry": true,
+  "ownerReceipt": true,
+  "otherGuestDenied": true,
+  "stockDecrementAndMovementVerified": true,
+  "secureHttpOnlyGuestCookie": true,
+  "syntheticFixtureRemovedAndStockRestored": true
+}

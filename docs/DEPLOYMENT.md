@@ -1,6 +1,6 @@
 # Deploy a portfolio demo on Vercel and Neon
 
-The release checkpoint is verified locally with Node 24 and a fresh PostgreSQL 17 database. The hosted connection, Vercel runtime and final domain still require an approved deployment smoke test.
+The public release runs in browse mode on Vercel Hobby with a dedicated Neon Free database. The deployment used a clean checkout of the audited public GitHub commit. [Live site](https://veyravelune-commerce.vercel.app/) · [Hosted release evidence](HOSTED_RELEASE.md)
 
 Use Vercel Hobby for a personal, non-commercial portfolio and Neon Free for its disposable demo database. Choose a Neon compute region near the Vercel Functions region. Check both providers' plan limits and scale-to-zero behavior before enabling demo traffic. [Vercel Hobby](https://vercel.com/docs/plans/hobby) · [Vercel Node runtime](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions) · [Neon plans](https://neon.com/docs/introduction/plans) · [Neon Prisma guide](https://neon.com/docs/guides/prisma)
 
@@ -36,7 +36,7 @@ No OAuth or payment provider is required. Provision the administrator through th
 
    Migration applies the checked-in schema. Seeding inserts missing demo entries without resetting existing stock or orders. Use the direct URL for seed or admin provisioning by setting the shell's `DATABASE_URL` to the direct URL if the pooled connection is unsuitable for those jobs. Keep migrations and seeding out of the Vercel build.
 3. Set the Vercel environment values above and create an approved deployment. Start in browse mode. Check `/api/health`, `/shop?q=regetn`, a product detail, the image endpoint, a GLB request, the six film chapters and phone fallback, `/api/auth/providers`, and anonymous admin denial. Confirm the canonical URL, `robots.txt` and sitemap agree with the intended release origin.
-4. For a transactional demo, provision the private owner with `npm run db:admin`. Configure retention, stock review and recovery for the disposable data. Then set `COMMERCE_MODE=demo` and redeploy. Test owner sign-in, quote, a synthetic checkout, stock change, owner-only confirmation and an authorized admin action. Confirm the HTTPS guest cookie carries Secure, HttpOnly and SameSite attributes.
+4. Provision the private owner with `npm run db:admin`. Verify demo orders on a gated candidate with the public domain still in browse mode. Vercel Standard Protection restricts generated deployment URLs. A candidate built with `--prod --skip-domain` must show a Vercel sign-in challenge to an anonymous request before any order is placed. Keep public checkout disabled until shared demo stock has a replenishment or isolation mechanism. Confirm the HTTPS guest cookie carries Secure, HttpOnly and SameSite attributes.
 5. Record the deployment URL and commit, migration status, smoke results and restore procedure. Keep a previous Vercel deployment available for application rollback. Verify database recovery separately and keep schema changes forward-compatible.
 
 [Local fresh-database smoke evidence](evidence/release/deployment-smoke.json) · [Release gates](QA_REPORT.md)

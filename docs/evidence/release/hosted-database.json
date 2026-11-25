@@ -1,0 +1,11 @@
+{
+  "provider": "Neon Free",
+  "migrationStatus": "current",
+  "successfulMigrations": 1,
+  "seededCategories": 6,
+  "seededProducts": 20,
+  "activeVariants": 22,
+  "ordersAtRelease": 0,
+  "repeatSeedPreservedStock": true,
+  "pooledConnectionVerified": true
+}

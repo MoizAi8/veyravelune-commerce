@@ -1,0 +1,15 @@
+{
+  "origin": "https://veyravelune-commerce.vercel.app",
+  "mode": "browse",
+  "checks": [
+    "HTTPS and public homepage",
+    "Six cinematic chapters, WebGL assets, and reverse scroll",
+    "Catalog, navigation, search, product, and optimized image",
+    "Wishlist persistence, live cart quote, and browse-mode checkout UI",
+    "No console errors or unsuccessful assets during storefront navigation",
+    "Catalog database, protected administration, SEO metadata and licenses",
+    "Public checkout API rejects write attempts in browse mode",
+    "390 px mobile fallback, search, and no horizontal overflow"
+  ],
+  "consoleErrors": 0
+}

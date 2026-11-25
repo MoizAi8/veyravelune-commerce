@@ -112,3 +112,11 @@ Opening resource transfer fell 30.5%; the cold film probe still recorded one 701
 - Vercel Hobby with Node 24 and Neon Free is the prepared target. The [deployment runbook](docs/DEPLOYMENT.md) specifies pooled runtime and direct migration URLs, auth origin, demo controls and hosted acceptance steps. Public deployment and remote Git setup await owner approval. The local storefront remains at http://127.0.0.1:3000/.
 
 - Recorded a 9.83-second, 960 × 600 WebM from real production browser frames. Verified decoded playback through all six chapters. The original Playwright recording produced blank frames on this machine and was replaced with the verified clip. [Cinematic clip](docs/evidence/release/royal-realm.webm).
+
+## Public GitHub release and live verification — 2026-11-25
+
+- Verified the clean original f67a467 checkpoint. Gitleaks 8.30.1 scanned all four original commits and the public snapshots without finding secrets. The public history preserves the verified app tree under a GitHub no-reply address, keeping the personal author metadata in the original local history. Checked synthetic admin/order images and bundled the two font notices.
+- Published https://github.com/MoizAi8/veyravelune-commerce and deployed public commit 009d3d8425906573e6c7bcf9c7dfc16312370a2f to https://veyravelune-commerce.vercel.app/ in browse mode. Vercel Hobby Node 24.x ran npm ci and npm run build in iad1. The production alias and recorded source SHA were verified.
+- Provisioned Neon Free in the same region. Migration status current. Two seeds preserved stock for 22 active variants across 20 products and six categories. Verified both direct migration and pooled runtime connectivity.
+- Passed eight groups of public hosted checks and private owner authentication. The protected Vercel candidate passed one hosted synthetic checkout, an idempotent retry, owner-only confirmation and inventory movement verification. Restored stock and removed only that fixture. Public order creation remained disabled before and after the check.
+- See [Hosted release evidence](docs/HOSTED_RELEASE.md) for screenshots and redacted results. The public domain stays in browse mode until stock replenishment or isolation protects shared demo inventory.

@@ -4,7 +4,7 @@ A cinematic furniture storefront for a fictional interiors atelier. The six-chap
 
 ![The Sovereign Sofa chapter in the Royal Realm](docs/evidence/release/chapter-sofa.webp)
 
-[Short homepage recording](docs/evidence/release/royal-realm.webm) · [Screenshot gallery](docs/PORTFOLIO.md#royal-realm-reconstruction) · [Live search screenshot](docs/evidence/release/search-1440.webp)
+[Live portfolio demo](https://veyravelune-commerce.vercel.app/) · [Short homepage recording](docs/evidence/release/royal-realm.webm) · [Screenshot gallery](docs/PORTFOLIO.md#royal-realm-reconstruction) · [Live search screenshot](docs/evidence/release/search-1440.webp)
 
 ## Architecture
 
@@ -53,4 +53,4 @@ Apply the migration to the isolated test database before running integration and
 
 [Vercel and Neon deployment runbook](docs/DEPLOYMENT.md) · [Known limitations](docs/KNOWN_LIMITATIONS.md) · [Project handoff](PROGRESS.md)
 
-This is a personal portfolio demo. Checkout creates simulated orders and inventory movements. Commercial use needs payment and fulfillment systems, security and capacity review, and operational recovery. The initial desktop traversal can still hitch on older graphics hardware. Physical-device and hosted verification remain pending.
+The live demo runs in browse mode on Vercel Hobby with Neon Free. Visitors can explore the film and catalogue, save pieces, and obtain a cart quote. Public order creation is disabled to protect shared inventory. The initial desktop traversal can still hitch on older graphics hardware. Mobile release checks use emulated touch and viewports. [Hosted verification and screenshots](docs/HOSTED_RELEASE.md)

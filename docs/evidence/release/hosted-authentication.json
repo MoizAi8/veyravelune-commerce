@@ -1,0 +1,6 @@
+{
+  "authorizedSignIn": true,
+  "privateOrdersApi": true,
+  "secureHttpOnlyLaxSession": true,
+  "signOutRevokesAdminRead": true
+}

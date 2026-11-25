@@ -1,6 +1,6 @@
 # Portfolio release review · 25 November 2026
 
-The local production build serves the reviewed Royal Realm and the new global search. The final regression set passed 218 of 218 automated cases. The local storefront is ready for portfolio review. Public release awaits owner approval, host configuration and verification on the target.
+The local production build serves the reviewed Royal Realm and the new global search. The final regression set passed 218 of 218 automated cases. The local storefront is ready for portfolio review. The public deployment is verified in browse mode. [Hosted release evidence](HOSTED_RELEASE.md)
 
 | Gate | Result | Scope of evidence |
 |---|---|---|
@@ -19,7 +19,7 @@ The local production build serves the reviewed Royal Realm and the new global se
 | Accessibility | PASS | Keyboard, native modal, focus return, reduced motion, nine page scans and a search-dialog axe scan |
 | Performance | FAIL for consistent cold-scroll smoothness | Opening transfer decreased 30.5%. Material preparation reduced the observed worst first-traversal interval from 717.3 ms to 266.9 ms. Warm replay p95 was 16.8 ms |
 | Production build | PASS | Build, startup, database health and local production browser checks |
-| Deployment readiness | BLOCKED for public release | Owner approval, target secrets, isolated hosted data, backups, retention and hosted smoke test remain outstanding |
+| Deployment readiness | PASS for browse-mode portfolio release | Vercel production, Neon migration, repeat seed and public smoke verified. Public order creation is disabled |
 
 ## Findings and resolutions
 

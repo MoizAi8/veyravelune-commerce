@@ -53,6 +53,10 @@ The desktop film captures use Edge and the local AMD Radeon R7 200 Series throug
 
 [Baseline comparison](screenshots/phase2/baseline-overview.webp) · [Filled bag](screenshots/phase2/bag-filled.webp) · [Mobile checkout](screenshots/phase2/checkout-filled-mobile.webp) · [Desktop confirmation](screenshots/phase2/confirmation.webp) · [Mobile confirmation](screenshots/phase2/confirmation-mobile.webp) · [Admin verification](screenshots/phase2/admin-verification.webp)
 
+## Hosted portfolio captures
+
+[Arrival](evidence/release/hosted-arrival.webp) · [Sofa](evidence/release/hosted-sofa.webp) · [Sanctuary](evidence/release/hosted-sanctuary.webp) · [Desktop search](evidence/release/hosted-search.webp) · [Mobile search](evidence/release/hosted-mobile-search.webp) · [Live storefront](https://veyravelune-commerce.vercel.app/)
+
 ## Royal Realm reconstruction
 
 [Opening](screenshots/royal-realm/arrival-1440.webp) · [Sofa](screenshots/royal-realm/sofa.webp) · [Vessel](screenshots/royal-realm/vessel.webp) · [Sanctuary](screenshots/royal-realm/sanctuary.webp) · [Gallery](screenshots/royal-realm/gallery.webp) · [House](screenshots/royal-realm/house.webp)
