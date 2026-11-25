@@ -1,0 +1,154 @@
+[
+  {
+    "renderer": "ANGLE (AMD, AMD Radeon R7 200 Series (0x00006611) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "startupMs": 1426,
+    "samples": [
+      {
+        "pass": "forward",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 33.30000000000018,
+        "maxMs": 717.3000000000002
+      },
+      {
+        "pass": "reverse",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 33.399999999999636
+      },
+      {
+        "pass": "replay",
+        "frames": 160,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.80000000000109,
+        "maxMs": 16.80000000000109
+      }
+    ],
+    "spikes": [
+      {
+        "pass": "forward",
+        "step": 13,
+        "start": 1654.8,
+        "ms": 183.29999999999995
+      },
+      {
+        "pass": "forward",
+        "step": 14,
+        "start": 1838.1,
+        "ms": 250.4000000000001
+      },
+      {
+        "pass": "forward",
+        "step": 15,
+        "start": 2088.5,
+        "ms": 717.3000000000002
+      },
+      {
+        "pass": "forward",
+        "step": 52,
+        "start": 3406.4,
+        "ms": 233.5999999999999
+      },
+      {
+        "pass": "forward",
+        "step": 53,
+        "start": 3640,
+        "ms": 150.19999999999982
+      },
+      {
+        "pass": "forward",
+        "step": 81,
+        "start": 4240.5,
+        "ms": 166.89999999999964
+      },
+      {
+        "pass": "forward",
+        "step": 117,
+        "start": 5008.2,
+        "ms": 183.30000000000018
+      }
+    ],
+    "slowWebGL": [
+      {
+        "name": "getProgramParameter",
+        "start": 1831.3999999999942,
+        "ms": 10.900000000023283,
+        "pass": "forward",
+        "step": 12
+      }
+    ]
+  },
+  {
+    "renderer": "ANGLE (AMD, AMD Radeon R7 200 Series (0x00006611) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "startupMs": 1143.0999999999767,
+    "samples": [
+      {
+        "pass": "forward",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 50.09999999999991
+      },
+      {
+        "pass": "reverse",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.899999999999636
+      },
+      {
+        "pass": "replay",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.80000000000109
+      }
+    ],
+    "spikes": [
+      {
+        "pass": "forward",
+        "step": 17,
+        "start": 1448.7,
+        "ms": 50.09999999999991
+      }
+    ],
+    "slowWebGL": []
+  },
+  {
+    "renderer": "ANGLE (AMD, AMD Radeon R7 200 Series (0x00006611) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "startupMs": 1173.7000000000116,
+    "samples": [
+      {
+        "pass": "forward",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 50.100000000000136
+      },
+      {
+        "pass": "reverse",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.800000000000182
+      },
+      {
+        "pass": "replay",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.899999999999636
+      }
+    ],
+    "spikes": [
+      {
+        "pass": "forward",
+        "step": 16,
+        "start": 1478.3,
+        "ms": 50.100000000000136
+      }
+    ],
+    "slowWebGL": []
+  }
+]

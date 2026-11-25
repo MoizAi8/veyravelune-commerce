@@ -1,0 +1,31 @@
+export const categories = [
+  { slug: "seating", name: "Seating", description: "Soft forms with a commanding silhouette.", image: "/images/products/regent.webp" },
+  { slug: "bedroom", name: "Bedroom", description: "Quiet chambers in ivory and carved timber.", image: "/images/products/alcove.webp" },
+  { slug: "dining", name: "Dining", description: "Long tables for evenings in company.", image: "/images/products/convive.webp" },
+  { slug: "tables", name: "Tables", description: "Gather around stone, timber and brass.", image: "/images/products/vesper.webp" },
+  { slug: "lighting", name: "Lighting", description: "A warmer light for the hours after dusk.", image: "/images/products/aurel.webp" },
+  { slug: "decor", name: "Objects", description: "Small forms with presence of their own.", image: "/images/products/umbra.webp" },
+] as const;
+
+export const pieces = [
+  ["convive", "Convive Dining Table", "dining", "Marble and walnut", "260 × 112 × 75 cm", "An oval marble top rests on paired fluted walnut pedestals. Chairs are shown for scale.", "Veined ivory", 598000],
+  ["alcove", "Alcove Tracery Bed", "bedroom", "Timber", "149 × 204 × 153 cm", "A high carved headboard and four slender posts enclose a bed dressed in ivory.", "Dark timber", 368000],
+  ["companion", "Companion Side Table", "tables", "Timber", "55 × 45 × 55 cm", "A compact timber table for the reading room.", "Natural wood", 68000],
+  ["repose", "Repose Lounge Chair", "seating", "Timber and upholstery", "101 × 119 × 117 cm", "A reclining lounge silhouette with an exposed timber frame.", "Atelier finish", 196000],
+  ["regent", "The Regent Sofa", "seating", "Velvet", "244 × 104 × 77 cm", "A broad crescent in channel-stitched velvet, raised on short antique-brass feet.", "Emerald", 489000],
+  ["sylvan", "Sylvan Lounge Chair", "seating", "Bouclé", "82 × 85 × 79 cm", "Tactile moss bouclé rests within an open, rounded walnut frame.", "Moss", 189000],
+  ["vespera", "Vespera Chaise", "seating", "Velvet", "182 × 79 × 72 cm", "Wine velvet traces an asymmetrical curve above a dark wood plinth.", "Wine", 283000],
+  ["lumiere", "Lumière Bench", "seating", "Linen", "140 × 48 × 47 cm", "A clean ivory bolster, held lightly above the floor by cast brass legs.", "Ivory", 149000],
+  ["vesper", "Vesper Coffee Table", "tables", "Marble", "100 × 100 × 37 cm", "A disc of black marble crowns a ribbed, aged-brass pedestal.", "Nero", 259000],
+  ["thal", "Thal Side Table", "tables", "Walnut", "58 × 43 × 49 cm", "A softly irregular walnut top shows the grain end to end.", "Smoked walnut", 98000],
+  ["arca", "Arca Console", "tables", "Limestone", "142 × 40 × 81 cm", "A spare architectural console, cut from warm fossil-strewn limestone.", "Fossil", 326000],
+  ["claret", "Claret Drum Table", "tables", "Lacquer", "44 × 44 × 46 cm", "A low drum with a reflective oxblood lacquer finish and rounded rim.", "Oxblood", 79000],
+  ["aurel", "Aurel Table Lamp", "lighting", "Bronze", "37 × 37 × 59 cm", "A bronze base with a pleated silk shade that casts a soft pool of light.", "Aged bronze", 84000],
+  ["astra", "Astra Pendant", "lighting", "Brass", "115 × 28 × 38 cm", "Five opal globes suspended in a clean line of brushed brass.", "Brushed brass", 186000],
+  ["solenne", "Solenne Floor Lamp", "lighting", "Brass", "48 × 48 × 162 cm", "A tall, slender stem under a pale linen shade.", "Oxidized brass", 128000],
+  ["diadem", "Diadem Sconce", "lighting", "Brass", "24 × 18 × 36 cm", "Paired frosted globes set into a sculpted wall fitting.", "Satin brass", 62000],
+  ["umbra", "The Umbra Vessel", "decor", "Ceramic", "31 × 31 × 42 cm", "A black ceramic vessel with a narrow neck and two fine antique-brass bands.", "Obsidian", 42000],
+  ["vigils", "Vigils Candlesticks", "decor", "Bronze", "12 × 12 × 31 cm", "Two turned candlesticks with an oxidized bronze surface.", "Patinated bronze", 29000],
+  ["nereid", "Nereid Bowl", "decor", "Marble", "38 × 21 × 10 cm", "A low oval bowl carved from deep green marble with pale veins.", "Verde", 37000],
+  ["oriel", "Oriel Floor Mirror", "decor", "Brass", "76 × 5 × 180 cm", "A standing arched mirror edged in a thin line of blackened brass.", "Blackened brass", 139000],
+] as const;

@@ -1,0 +1,118 @@
+[
+  {
+    "renderer": "ANGLE (AMD, AMD Radeon R7 200 Series (0x00006611) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "startupMs": 1404.100000000035,
+    "samples": [
+      {
+        "pass": "forward",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 266.9000000000001
+      },
+      {
+        "pass": "reverse",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.899999999999636
+      },
+      {
+        "pass": "replay",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.80000000000109
+      }
+    ],
+    "spikes": [
+      {
+        "pass": "forward",
+        "step": 13,
+        "start": 1604.3,
+        "ms": 266.9000000000001
+      },
+      {
+        "pass": "forward",
+        "step": 53,
+        "start": 2538.6,
+        "ms": 150.0999999999999
+      }
+    ],
+    "slowWebGL": [
+      {
+        "name": "getProgramParameter",
+        "start": 1849.100000000035,
+        "ms": 16.099999999976717,
+        "pass": "forward",
+        "step": 12
+      }
+    ]
+  },
+  {
+    "renderer": "ANGLE (AMD, AMD Radeon R7 200 Series (0x00006611) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "startupMs": 1103,
+    "samples": [
+      {
+        "pass": "forward",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 33.40000000000009
+      },
+      {
+        "pass": "reverse",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.800000000000182
+      },
+      {
+        "pass": "replay",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.900000000000546
+      }
+    ],
+    "spikes": [],
+    "slowWebGL": []
+  },
+  {
+    "renderer": "ANGLE (AMD, AMD Radeon R7 200 Series (0x00006611) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "startupMs": 1140.9000000000233,
+    "samples": [
+      {
+        "pass": "forward",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.90000000000009
+      },
+      {
+        "pass": "reverse",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.899999999999636
+      },
+      {
+        "pass": "replay",
+        "frames": 160,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 16.900000000000546
+      }
+    ],
+    "spikes": [],
+    "slowWebGL": [
+      {
+        "name": "texSubImage2D",
+        "start": 1092.4000000000233,
+        "ms": 10.799999999988358,
+        "pass": "startup",
+        "step": 0
+      }
+    ]
+  }
+]

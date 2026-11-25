@@ -1,0 +1,48 @@
+.house-intro,.material-study,.house-signoff {padding:clamp(4rem,8vw,9rem) var(--gutter)}
+.house-intro {display:grid;grid-template-columns:1fr 2.3fr 1fr;align-items:end;gap:3vw;background:#192d27;color:#f4ebdd}
+.house-intro .eyebrow {align-self:start;color:#dec8a0}
+.house-intro h2,.sanctuary-spread h2,.material-study h2 {font-size:clamp(3.5rem,6.6vw,7.8rem);line-height:.91;letter-spacing:-.055em}
+.house-intro .text-link,.sanctuary-spread .text-link {margin-top:1.1rem}
+.department-section .departments {grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(1rem,3vw,3rem);row-gap:3.8rem}
+.department-section .department {margin:0;grid-column:span 3}
+.department-section .department:nth-child(1),.department-section .department:nth-child(6){grid-column:span 6}
+.department-section .department:nth-child(3),.department-section .department:nth-child(5){align-self:end}
+.department-section .department:nth-child(1) .department-photo,.department-section .department:nth-child(6) .department-photo{aspect-ratio:1.43}
+.sanctuary-spread {display:grid;grid-template-columns:58% 42%;background:#40252b;color:#f4ebdd;align-items:center}
+.sanctuary-art {position:relative;min-height:clamp(26rem,44vw,46rem);overflow:hidden}
+.sanctuary-art img {object-fit:cover}
+.sanctuary-spread > div:last-child {padding:clamp(2rem,5vw,6rem)}
+.sanctuary-spread h2 {margin:.7rem 0 1.4rem}
+.material-study {background:#e8decb;color:#302723}
+.material-study .eyebrow {color:#685333}
+.material-study header {margin-bottom:2.4rem}
+.material-study > div {display:grid;grid-template-columns:1fr 1.4fr 1fr;gap:clamp(.9rem,3vw,3.5rem);align-items:start}
+.material-study figure {position:relative;aspect-ratio:1.15;overflow:hidden;margin:0 0 .9rem}
+.material-study img {object-fit:cover;transform:scale(1.72)}
+.material-study h3 {font-size:2.2rem}
+.material-study p {max-width:32ch}
+.room-notes {position:absolute;right:5vw;bottom:2.5rem;display:flex;flex-wrap:wrap;gap:.5rem;z-index:1}
+.room-notes a {display:inline-flex;align-items:center;min-height:44px;padding:.55rem .9rem;color:#f4ebdd;background:#17241f;border:1px solid #897d68}
+.house-signoff {background:#dbcdb8;color:#302820;text-align:center}
+.house-signoff span {font:400 clamp(2.4rem,9.4vw,12rem)/1 var(--serif);letter-spacing:.025em}
+.house-signoff p {margin:.75rem auto 0}
+@media(prefers-reduced-motion:no-preference){
+ @supports(animation-timeline:view()){
+  .house-intro h2,.material-study header {animation:house-type linear both;animation-timeline:view();animation-range:entry 5% entry 96%}
+  .sanctuary-art img {animation:house-dolly linear both;animation-timeline:view()}
+ }
+}
+@keyframes house-type {from{clip-path:inset(0 0 58%);transform:translateY(1.25rem)}to{clip-path:inset(-5%);transform:none}}
+@keyframes house-dolly {from{transform:scale(1.09) translateX(-1%)}to{transform:scale(1)}}
+@media(max-width:760px){
+ .house-intro {grid-template-columns:1fr;gap:1.4rem}
+ .house-intro div {max-width:36ch}
+ .department-section .departments {grid-template-columns:1fr 1fr;row-gap:1.8rem}
+ .department-section .department:nth-child(n) {grid-column:span 1;align-self:start}
+ .department-section .department:nth-child(1),.department-section .department:nth-child(6){grid-column:1/-1}
+ .sanctuary-spread {grid-template-columns:1fr}
+ .sanctuary-art {min-height:74vw}
+ .material-study > div {grid-template-columns:1fr 1fr}
+ .material-study > div a:nth-child(2){grid-column:1/-1;grid-row:2}
+ .room-notes {position:relative;right:auto;bottom:auto;padding:0 var(--gutter) 2rem;order:2}
+}

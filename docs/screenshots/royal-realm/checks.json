@@ -1,0 +1,47 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "modelRequests": 38,
+    "openingMetrics": {
+      "lcp": 2436,
+      "cls": 0.00017035761075745884
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "modelRequests": 0,
+    "openingMetrics": {
+      "lcp": 180,
+      "cls": 0.003984295292044549
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "modelRequests": 0,
+    "openingMetrics": {
+      "lcp": 188,
+      "cls": 0.023846846267891426
+    }
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "modelRequests": 4,
+    "openingMetrics": {
+      "lcp": 172,
+      "cls": 0.00023769659996032716
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "modelRequests": 4,
+    "openingMetrics": {
+      "lcp": 172,
+      "cls": 0.0000830573407710825
+    }
+  }
+]

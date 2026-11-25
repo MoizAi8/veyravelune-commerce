@@ -1,0 +1,26 @@
+{
+  "renderer": "ANGLE (AMD, AMD Radeon R7 200 Series (0x00006611) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "samples": [
+    {
+      "pass": "forward",
+      "frames": 160,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 16.90000000000009,
+      "maxMs": 700.5999999999999
+    },
+    {
+      "pass": "reverse",
+      "frames": 160,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 16.800000000000182,
+      "maxMs": 16.899999999999636
+    },
+    {
+      "pass": "replay",
+      "frames": 160,
+      "medianMs": 16.69999999999891,
+      "p95Ms": 16.80000000000109,
+      "maxMs": 16.80000000000109
+    }
+  ]
+}

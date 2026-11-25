@@ -1,0 +1,777 @@
+[
+  {
+    "group": "catalog",
+    "name": "stable pagination includes every public item exactly once",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "aurel has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "aurel catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "aurel exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "regent has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "regent catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "regent exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "umbra has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "umbra catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "umbra exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "vesper has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "vesper catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "vesper exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "alcove has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "alcove catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "alcove exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "arca has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "arca catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "arca exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "astra has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "astra catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "astra exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "claret has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "claret catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "claret exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "companion has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "companion catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "companion exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "convive has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "convive catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "convive exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "diadem has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "diadem catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "diadem exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "lumiere has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "lumiere catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "lumiere exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "nereid has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "nereid catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "nereid exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "oriel has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "oriel catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "oriel exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "repose has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "repose catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "repose exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "solenne has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "solenne catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "solenne exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "sylvan has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "sylvan catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "sylvan exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "thal has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "thal catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "thal exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "vespera has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "vespera catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "vespera exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "product",
+    "name": "vigils has a reachable product page and a selectable finish",
+    "status": "passed"
+  },
+  {
+    "group": "assets",
+    "name": "vigils catalog photography decodes and has alternative text",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "vigils exact search presents its current lead price",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "lighting collection returns only its products",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "seating collection returns only its products",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "decor collection returns only its products",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "tables collection returns only its products",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "bedroom collection returns only its products",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "dining collection returns only its products",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "global ordering across all pages for name",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "global ordering across all pages for price-asc",
+    "status": "passed"
+  },
+  {
+    "group": "catalog",
+    "name": "global ordering across all pages for price-desc",
+    "status": "passed"
+  },
+  {
+    "group": "api",
+    "name": "validates page=0",
+    "status": "passed"
+  },
+  {
+    "group": "api",
+    "name": "validates page=1000",
+    "status": "passed"
+  },
+  {
+    "group": "api",
+    "name": "validates max=-1",
+    "status": "passed"
+  },
+  {
+    "group": "api",
+    "name": "validates min=99&max=1",
+    "status": "passed"
+  },
+  {
+    "group": "api",
+    "name": "validates category=unknown",
+    "status": "passed"
+  },
+  {
+    "group": "api",
+    "name": "validates sort=unknown",
+    "status": "passed"
+  },
+  {
+    "group": "api",
+    "name": "validates q=aaaaaaaaaaaaaaaaaa",
+    "status": "passed"
+  },
+  {
+    "group": "api",
+    "name": "validates q=%25_",
+    "status": "passed"
+  },
+  {
+    "group": "access",
+    "name": "anonymous request to /api/admin/products",
+    "status": "passed"
+  },
+  {
+    "group": "access",
+    "name": "anonymous request to /api/admin/orders",
+    "status": "passed"
+  },
+  {
+    "group": "access",
+    "name": "anonymous request to /api/orders/VL-00000000000000000000000000000000",
+    "status": "passed"
+  },
+  {
+    "group": "access",
+    "name": "anonymous request to /api/products/unlisted-fixture",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /about",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /shop",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /product/alcove",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /cart",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /checkout",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /wishlist",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /contact",
+    "status": "passed"
+  },
+  {
+    "group": "accessibility",
+    "name": "AA automated scan /policies",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "navigation and film 2560",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "search overlay and thumbnails 2560",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "checkout totals or empty bag accessible 2560",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "navigation and film 1920",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "search overlay and thumbnails 1920",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "checkout totals or empty bag accessible 1920",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "navigation and film 1440",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "search overlay and thumbnails 1440",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "checkout totals or empty bag accessible 1440",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "navigation and film 1366",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "search overlay and thumbnails 1366",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "checkout totals or empty bag accessible 1366",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "navigation and film 1280",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "search overlay and thumbnails 1280",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "checkout totals or empty bag accessible 1280",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "navigation and film 768",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "search overlay and thumbnails 768",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "checkout totals or empty bag accessible 768",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "navigation and film 390",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "search overlay and thumbnails 390",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "checkout totals or empty bag accessible 390",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "navigation and film 360",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "search overlay and thumbnails 360",
+    "status": "passed"
+  },
+  {
+    "group": "responsive",
+    "name": "checkout totals or empty bag accessible 360",
+    "status": "passed"
+  },
+  {
+    "group": "film",
+    "name": "chapter control renders arrival",
+    "status": "passed"
+  },
+  {
+    "group": "film",
+    "name": "chapter control renders sofa",
+    "status": "passed"
+  },
+  {
+    "group": "film",
+    "name": "chapter control renders vessel",
+    "status": "passed"
+  },
+  {
+    "group": "film",
+    "name": "chapter control renders bed",
+    "status": "passed"
+  },
+  {
+    "group": "film",
+    "name": "chapter control renders gallery",
+    "status": "passed"
+  },
+  {
+    "group": "film",
+    "name": "chapter control renders salon",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "direct scroll reconstructs chapter 2",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "direct scroll reconstructs chapter 0",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "direct scroll reconstructs chapter 5",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "direct scroll reconstructs chapter 1",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "direct scroll reconstructs chapter 4",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "direct scroll reconstructs chapter 3",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "reload restores the active chapter",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "native scroll remains responsive across the whole pinned film",
+    "status": "passed"
+  },
+  {
+    "group": "motion",
+    "name": "skip reaches the collection after reverse scrolling",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Chromium homepage fallback",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Chromium search and product navigation",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Chromium bag and checkout navigation",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Firefox homepage fallback",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Firefox search and product navigation",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Firefox bag and checkout navigation",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "WebKit homepage fallback",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "WebKit search and product navigation",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "WebKit bag and checkout navigation",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Edge homepage fallback",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Edge search and product navigation",
+    "status": "passed"
+  },
+  {
+    "group": "browser",
+    "name": "Edge bag and checkout navigation",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "sofa.glb renderable mesh and material references",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "sofa.glb complete texture and buffer payloads",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "vessel.glb renderable mesh and material references",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "vessel.glb complete texture and buffer payloads",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "chandelier.glb renderable mesh and material references",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "chandelier.glb complete texture and buffer payloads",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "GothicBed_01/model.gltf renderable mesh and material references",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "GothicBed_01/model.gltf complete texture and buffer payloads",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "mid_century_lounge_chair/model.gltf renderable mesh and material references",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "mid_century_lounge_chair/model.gltf complete texture and buffer payloads",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "side_table_01/model.gltf renderable mesh and material references",
+    "status": "passed"
+  },
+  {
+    "group": "3D",
+    "name": "side_table_01/model.gltf complete texture and buffer payloads",
+    "status": "passed"
+  },
+  {
+    "group": "runtime",
+    "name": "no unhandled errors on instrumented Edge pages",
+    "status": "passed"
+  }
+]

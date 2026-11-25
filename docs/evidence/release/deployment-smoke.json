@@ -1,0 +1,23 @@
+{
+  "database": "Isolated fresh PostgreSQL 17 database on loopback",
+  "migration": "applied and status current",
+  "seed": "twice; stock edit preserved",
+  "variants": 22,
+  "adminProvisioning": "passed",
+  "anonymousAdminPage": 307,
+  "anonymousAdminAPI": 403,
+  "routes": {
+    "/": 200,
+    "/shop?q=regetn": 200,
+    "/product/regent": 200,
+    "/api/health": 200,
+    "/api/products?view=suggestions&q=regetn": 200,
+    "/api/auth/providers": 200,
+    "/robots.txt": 200,
+    "/sitemap.xml": 200,
+    "/images/editorial/vestibule.webp": 200,
+    "/models/sofa.glb": 200,
+    "/models/GothicBed_01/model.gltf": 200
+  },
+  "hostedDeployment": "pending"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "lcp": 740,
+    "cls": 0.00002795989529749657,
+    "transfer": 3115823,
+    "javascript": 529134,
+    "models": 2192325,
+    "heap": 23846742,
+    "openAutomationMs": 85.84419999999955,
+    "liveResultAutomationMs": 334.90459999999985,
+    "apiMedianMs": 9.202099999999518
+  },
+  {
+    "lcp": 176,
+    "cls": 0.00017035761075745884,
+    "transfer": 3115824,
+    "javascript": 529134,
+    "models": 2192325,
+    "heap": 23917855,
+    "openAutomationMs": 90.08530000000064,
+    "liveResultAutomationMs": 330.72409999999945,
+    "apiMedianMs": 7.517799999999625
+  },
+  {
+    "lcp": 452,
+    "cls": 0.00002795989529749657,
+    "transfer": 3115826,
+    "javascript": 529134,
+    "models": 2192325,
+    "heap": 23937449,
+    "openAutomationMs": 89.13680000000022,
+    "liveResultAutomationMs": 322.8600999999999,
+    "apiMedianMs": 7.515599999998813
+  }
+]

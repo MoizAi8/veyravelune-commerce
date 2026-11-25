@@ -1,0 +1,10 @@
+# Architecture
+Browser → Next.js server components / route handlers → domain services → Prisma → PostgreSQL. Client islands: hero canvas, filters, gallery, cart/wishlist, admin forms. Server components render catalog and product data; server-only modules own DB access, pricing, inventory and authorization. No direct client DB access. RSC and API share service functions rather than HTTP-loopback calls. Dynamic checkout/order/admin responses no-store; catalog cache only if mutation invalidation is verified.
+
+## Boundaries
+`src/app` routing/layouts; `src/components` reusable UI and feature sections; `src/features` commerce domain validation/types and client adapters; `src/server` db, auth, services, repositories, demo payment, optional integrations; `src/store` Zustand; `src/lib` formatters/config; `prisma` schema/migrations/seed; `public` local assets; `tests` unit/integration/e2e. Use `server-only` in secrets/DB code. Keep payment providers behind one interface only if Stripe P1 implemented.
+
+## Transaction flow
+Quote receives SKU/variant IDs and quantities, validates active product, current prices and stock; server returns integer cents. Place demo order receives validated address and idempotency key bound to session. Within one DB transaction: lock/update variants in deterministic ID order with stock >= quantity condition; insert order and immutable line snapshots; record inventory deltas; rollback entire transaction on conflict. Unique idempotency scope/key prevents duplicate orders; concurrent duplicate returns existing order if same payload, else 409. Never mutate stock from cart alone. Do not expose raw guest token in logs; hash token or bind order to signed guest session. Use test-only fake contact/shipping data in public demo and retention cleanup.
+
+P1 Stripe: separate order/reservation lifecycle, stock reserved before checkout, expiration release exactly once, verified webhook event idempotency, no payment-success status based on browser redirect. Do not enable until integration tests cover lifecycle; otherwise keep P0 demo mode only.

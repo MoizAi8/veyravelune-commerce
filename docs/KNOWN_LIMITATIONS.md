@@ -1,0 +1,8 @@
+# Release limitations
+
+- **Cold film startup.** In the controlled comparison, the worst first-traversal interval on the older Radeon fell from 717.3 ms to 266.9 ms. Warm replay p95 was 16.8 ms in both builds. Initial GPU work can still produce a visible hitch. [Measurements](PERFORMANCE_REPORT.md)
+- **Device coverage.** Edge received full commerce, film and accessibility verification. Chromium, Firefox and WebKit received homepage fallback, search-to-product and bag/checkout smoke tests. Phone and tablet sizes were emulated. Physical devices, screen-reader sessions, other engines' WebGL performance and hosted conditions remain unverified.
+- **Search scale.** The demo has 20 database-backed products. Ranking scans active eligible products and matches normalized tokens and single-edit typos. Categories serve as collections in this schema. There is no separate collection-membership model, semantic search service, real sales-popularity signal or client-side product cache. Local history requires browser storage.
+- **Runtime.** The installed Prisma/pg adapter can emit a concurrent-query deprecation during ordinary catalog reads. The current build and transaction tests pass. Review upstream compatibility before updating to pg 9.
+- **Assets.** The arrival and final interior use editorial plates. The intervening chapters use real WebGL objects. The sofa, vessel and chandelier interpret fictional catalog pieces. The bed, chair and side-table images are renders of their actual meshes.
+- **Deployment.** Public hosting, public DNS, TLS, managed database settings, production secrets, recovery drills, retention and release approval remain outstanding. Demo checkout creates local orders without payment or fulfillment. [Deployment plan](DEPLOYMENT.md)
